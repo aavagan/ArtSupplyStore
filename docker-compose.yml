@@ -1,0 +1,9 @@
+services:
+  app:
+    build: ./ArtSupplyStore
+    ports:
+      - "8028:8080"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - ConnectionStrings__DefaultConnection=Data Source=/app/data/artsupply.db

@@ -1,0 +1,16 @@
+﻿<nav class="navbar navbar-dark bg-dark mb-4">
+    <div class="container">
+        <a class="navbar-brand" href="/">Магазин для творчества</a>
+    </div>
+</nav>
+
+<div class="container">
+    <Router AppAssembly="@typeof(App).Assembly">
+        <Found Context="routeData">
+            <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        </Found>
+        <NotFound>
+            <h3>Страница не найдена</h3>
+        </NotFound>
+    </Router>
+</div>

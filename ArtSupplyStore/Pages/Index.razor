@@ -1,0 +1,33 @@
+﻿@page "/"
+@using ArtSupplyStore.Models
+@using ArtSupplyStore.Services
+@inject IProductRepository ProductRepo
+
+<h2>Товары для творчества</h2>
+
+<div class="row mt-4">
+    @foreach (var product in _products)
+    {
+        <div class="col-md-4 mb-3">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <span class="badge bg-secondary mb-2">@product.Category</span>
+                    <p class="card-text">@product.Description</p>
+                    <p class="card-text fs-4 fw-bold text-primary">@product.Price.ToString("#,###") ₽</p>
+                    <p class="card-text"><small class="text-muted">В наличии: @product.Stock шт.</small></p>
+                    <button class="btn btn-primary w-100">В корзину</button>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@code {
+    private List<Product> _products = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _products = await ProductRepo.GetAllAsync();
+    }
+}
