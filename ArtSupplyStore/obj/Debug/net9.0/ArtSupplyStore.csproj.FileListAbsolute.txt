@@ -132,9 +132,7 @@ C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\bin\Debug\net9.0\runtimes\win-x86\na
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\rjimswa.dswa.cache.json
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
-C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\scopedcss\bundle\ArtSupplyStore.styles.css
-C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\scopedcss\projectbundle\ArtSupplyStore.bundle.scp.css
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\compressed\j52dc8zxij-pm1jm1fodo.gz
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\compressed\s8dzj5lhzm-61n19gt1b8.gz
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\compressed\x3nsyzgnqp-xtxxf3hu2r.gz
@@ -194,8 +192,6 @@ C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\compressed\g2od6e2e
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\compressed\v5647qk8b5-dd6z7egasc.gz
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\compressed\23jc3m10fe-5pze98is44.gz
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\compressed\d40k4zbvcy-mlv21k5csn.gz
-C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\compressed\e2388z2o9s-ghisz8qck3.gz
-C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\compressed\mczyev0go5-ghisz8qck3.gz
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\staticwebassets.development.json
@@ -206,3 +202,5 @@ C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\refint\ArtSupplySto
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\ArtSupplyStore.pdb
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\ArtSupplyStore.genruntimeconfig.cache
 C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\ref\ArtSupplyStore.dll
+C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\ArtSupplyStore.sourcelink.json
+C:\Users\Anna\ArtSupplyStore\ArtSupplyStore\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

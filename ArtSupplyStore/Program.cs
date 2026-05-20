@@ -4,7 +4,7 @@ using ArtSupplyStore.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services
+
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -13,7 +13,7 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 var app = builder.Build();
 
-// Apply migrations
+// Миграции
 using (var scope = app.Services.CreateScope())
 {
     var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
